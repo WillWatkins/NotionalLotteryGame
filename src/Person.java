@@ -50,7 +50,7 @@ public class Person {
 
     //Mainly for testing
     public String toString(){
-        return getPersonType() + "" + getPersonName() + "" + isHappy() + "" +getLatestSaying();
+        return getPersonType() + " " + getPersonName() + " " + isHappy() + " " + getLatestSaying();
     }
 
 }
