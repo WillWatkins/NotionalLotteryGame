@@ -7,6 +7,5 @@ public class TestAudienceMember {
         System.out.println(audienceMember);
         audienceMember.speak();
         System.out.println(audienceMember);
-
     }
 }
