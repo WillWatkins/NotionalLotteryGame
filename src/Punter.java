@@ -6,7 +6,6 @@ public class Punter extends Person{
         super(name);
     }
 
-    @Override
     public String getPersonType() {
         return "Punter";
     }
@@ -16,7 +15,6 @@ public class Punter extends Person{
         return false;
     }
 
-    @Override
     public String getCurrentSaying(){
         return "Make me happy: give me lots of money";
     }

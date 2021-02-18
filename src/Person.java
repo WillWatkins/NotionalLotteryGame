@@ -1,5 +1,5 @@
 //Representation of a person involved somehow in the lottery
-public class Person {
+public abstract class Person {
 
     //The name of the person
     private final String personName;
@@ -26,10 +26,8 @@ public class Person {
     }
 
     //Returns the name of the type of Person
-    //This is defined in the superclass and then each subclass will redefine it to be appropriate to that subclass
-    public String getPersonType(){
-        return "Person";
-    }
+    //Each subclass will define this method as to be appropriate to that subclass
+    public abstract String getPersonType();
 
     //Returns whether or not the Person is happy
     //This will be redefined in the appropriate subclass(es).
@@ -38,10 +36,8 @@ public class Person {
     }
 
     //Returns the Person's current saying
-    //This will be redefined in subclasses.
-    public String getCurrentSaying(){
-        return "I have nothing to say";
-    }
+    //This will be defined in subclasses.
+    public abstract String getCurrentSaying();
 
     //Causes the person to speak by updating their latest sayging from their current saying
     public void speak(){
