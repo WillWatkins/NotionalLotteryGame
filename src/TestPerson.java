@@ -1,5 +1,5 @@
 //This test was created at the start of the project.
-//It is not redundant and does not work because Person class is abstract and instances of Person
+//It is now redundant and does not work because Person class is abstract and instances of Person
 //cannot be created directly from Person.
 
 
